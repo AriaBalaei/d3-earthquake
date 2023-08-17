@@ -1,0 +1,261 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": 1692217180000,
+    "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.geojson",
+    "title": "USGS Significant Earthquakes, Past Month",
+    "status": 200,
+    "api": "1.10.3",
+    "count": 6
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.5,
+        "place": "42 km W of Sola, Vanuatu",
+        "time": 1692190060512,
+        "updated": 1692216095433,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000knq0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000knq0.geojson",
+        "felt": 8,
+        "cdi": 4.6,
+        "mmi": 4.366,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 654,
+        "net": "us",
+        "code": "7000knq0",
+        "ids": ",us7000knq0,",
+        "sources": ",us,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 114,
+        "dmin": 7.177,
+        "rms": 0.68,
+        "gap": 25,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.5 - 42 km W of Sola, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.1582,
+          -13.8814,
+          192.955
+        ]
+      },
+      "id": "us7000knq0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.83,
+        "place": "9 km NNE of Snoqualmie, Washington",
+        "time": 1691489843840,
+        "updated": 1692160872514,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61939452",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw61939452.geojson",
+        "felt": 1580,
+        "cdi": 4.3,
+        "mmi": 3.768,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 656,
+        "net": "uw",
+        "code": "61939452",
+        "ids": ",uw61939452,us6000kylh,",
+        "sources": ",uw,us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 122,
+        "dmin": 0.1048,
+        "rms": 0.28,
+        "gap": 59,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.8 - 9 km NNE of Snoqualmie, Washington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.7715,
+          47.60433333333334,
+          16.22
+        ]
+      },
+      "id": "uw61939452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "23 km S of Dezhou, China",
+        "time": 1691260438159,
+        "updated": 1691541740642,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ky5l",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ky5l.geojson",
+        "felt": 45,
+        "cdi": 9.1,
+        "mmi": 7.147,
+        "alert": "red",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 2041,
+        "net": "us",
+        "code": "6000ky5l",
+        "ids": ",us6000ky5l,",
+        "sources": ",us,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 184,
+        "dmin": 2.787,
+        "rms": 0.59,
+        "gap": 27,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - 23 km S of Dezhou, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3552,
+          37.2312,
+          10
+        ]
+      },
+      "id": "us6000ky5l"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.4,
+        "place": "96 km ENE of Port-Olry, Vanuatu",
+        "time": 1690375475661,
+        "updated": 1691338170727,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000kvmq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000kvmq.geojson",
+        "felt": 4,
+        "cdi": 4.7,
+        "mmi": 6.917,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 632,
+        "net": "us",
+        "code": "6000kvmq",
+        "ids": ",pt23207000,us6000kvmq,",
+        "sources": ",pt,us,",
+        "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 195,
+        "dmin": 6.723,
+        "rms": 0.69,
+        "gap": 28,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.4 - 96 km ENE of Port-Olry, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.9196,
+          -14.7559,
+          13
+        ]
+      },
+      "id": "us6000kvmq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "2 km E of Chino Valley, Arizona",
+        "time": 1690145526293,
+        "updated": 1691371943796,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000khv5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000khv5.geojson",
+        "felt": 974,
+        "cdi": 5.8,
+        "mmi": 4.442,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 787,
+        "net": "us",
+        "code": "7000khv5",
+        "ids": ",us7000khv5,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 27,
+        "dmin": 0.375,
+        "rms": 1.08,
+        "gap": 42,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.8 - 2 km E of Chino Valley, Arizona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.4319,
+          34.7585,
+          5
+        ]
+      },
+      "id": "us7000khv5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.5,
+        "place": "44 km S of Intipucá, El Salvador",
+        "time": 1689726127657,
+        "updated": 1692135240407,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kgpb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000kgpb.geojson",
+        "felt": 164,
+        "cdi": 8.2,
+        "mmi": 6.057,
+        "alert": "yellow",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 784,
+        "net": "us",
+        "code": "7000kgpb",
+        "ids": ",us7000kgpb,at00ry0p0x,",
+        "sources": ",us,at,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 156,
+        "dmin": 0.706,
+        "rms": 1.08,
+        "gap": 65,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.5 - 44 km S of Intipucá, El Salvador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0795,
+          12.7999,
+          70.817
+        ]
+      },
+      "id": "us7000kgpb"
+    }
+  ],
+  "bbox": [
+    -121.7715,
+    -14.7559,
+    5,
+    167.9196,
+    47.604333333333,
+    192.955
+  ]
+}
