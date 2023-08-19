@@ -8,9 +8,13 @@ const svg = canvas.append('svg')
   .attr('width', width)
   .attr('height', height)
 
+//Dfine div => tooltip
+var div = d3.select('body').append('div')
+        .attr('class', 'tooltip')
+        .style('opacity', '0')
 //JSON
 d3.json(api_url).then(data => {
-  console.log(data)
+
     const circle = svg.selectAll('circle')
         .data(data.features);
   
@@ -20,14 +24,24 @@ d3.json(api_url).then(data => {
       .attr('r', (d, i) => (d.properties.mag)*2)  
       .style('top', '156')
       
-      .on('mouseover', function(event){
-        console.log(event.target);
+      .on('mouseover', (event) => {
+        console.log(event);
+      //  console.log(event.target);
          d3.select(event.target)
          .transition()
          .duration(100)//100 ms
          .style('opacity', '0.7')
-         
+
+         div.transition()
+          .duration(200)
+          .style('opacity', '0.89')
+
+        div.html('<p>'+ event.srcElement.__data__.properties.mag +'</p>')
+            .style('left', event.pageX +'px')
+            .style('top', event.pageY + 'px')
+
       })
+      
 
       .on('mouseout', function(event){
         console.log(event.target);
